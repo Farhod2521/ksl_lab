@@ -1,0 +1,62 @@
+{%   extends  'base.html' %} 
+{% load static %}
+{% block content  %}
+
+            <div class="wt-bnr-inr overlay-wraper bg-center" style="background-image:url(images/banner/3.jpg);">
+            	<div class="overlay-main site-bg-secondry opacity-09"></div>
+                <div class="container">
+                    <div class="wt-bnr-inr-entry">
+                    	<div class="banner-title-outer">
+                        	<div class="banner-title-name">
+                        		<h2 class="site-text-primary">{{ page.title }}</h2>
+                            </div>
+                        </div>
+                        <!-- BREADCRUMB ROW -->                            
+                        
+                            <div>
+                                <ul class="wt-breadcrumb breadcrumb-style-2">
+                                    <li><a href="javascript:void(0);">Home</a></li>
+                                    <li>About 2</li>
+                                </ul>
+                            </div>
+                        
+                        <!-- BREADCRUMB ROW END -->                        
+                    </div>
+                </div>
+            </div>
+            <!-- INNER PAGE BANNER END -->
+
+            <!-- ABOUT SECTION START -->
+            <div class="section-full welcome-section-outer">
+            	<div class="welcome-section-top bg-white p-tb80">
+                    <div class="container">
+                    	<div class="row">
+                        
+                   
+                                                  
+                        	<div class="col-lg-12 col-md-12">
+                                <div class="welcom-to-section">
+                                    <!-- TITLE START-->
+                                  
+                                    <h2>{{ page.title }}</h2>
+                         
+                                    <p>{{ page.text|safe }}</p> 
+                                    
+                                    <div class="welcom-to-section-bottom d-flex justify-content-between">
+                                
+                                        <div class="welcom-sign-pic"><img src="images/sign.png" alt=""></div>
+                                       
+                                    </div>   
+                                </div>
+                            </div>
+
+                        </div>
+                    </div> 
+                </div>
+            </div>  
+
+
+
+
+
+{% endblock content  %}
